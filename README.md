@@ -1,4 +1,13 @@
-![alt text](https://github.com/BTx123/VGDC_TheLastRobot/blob/master/FB_Cover.jpg "Cover Placeholder")
+![alt text](https://github.com/BTx123/VGDC_TheLastRobot/blob/master/logo_placeholder.jpg "Logo Placeholder")
+
+## Summary
+
+
+## TODO
+* Story
+* Enemy sprites and AI
+* Level Design
+* Sound
 
 ## Useful Links
 [Writing Good Commit Messages](https://github.com/erlang/otp/wiki/Writing-good-commit-messages)
