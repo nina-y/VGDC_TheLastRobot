@@ -39,6 +39,21 @@ sysinfo.txt
 # Unity3D Generated File On Crash Reports
 sysinfo.txt
 
+# ============================================= #
+# Visual Studio / MonoDevelop / Rider generated #
+# ============================================= #
+[Ee]xported[Oo]bj/
+.vs/
+/*.userprefs
+/*.csproj
+/*.pidb
+/*.suo
+/*.sln*
+/*.user
+/*.unityproj
+/*.booproj
+/.idea*/
+
 # =========================
 # Operating System Files
 # =========================
