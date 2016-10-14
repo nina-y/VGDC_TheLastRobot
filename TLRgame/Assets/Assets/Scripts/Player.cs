@@ -8,7 +8,7 @@ using System.Collections;
 
 public class Player : MonoBehaviour
 {
-	//Stats
+	// Stats
 	public int currHealth;
 	public int maxHealth = 100;
 
@@ -42,28 +42,39 @@ public class Player : MonoBehaviour
 		anim.SetFloat ("Speed", Mathf.Abs (rb2D.velocity.x)); // only a positive value
 		anim.SetBool ("isDead", isDead); // dead when currHealth <= 0
 		// walking to the left
-		if (Input.GetAxis ("Horizontal") < 0.1f) {
+		if (Input.GetAxis ("Horizontal") < 0.1f)
+        {
 			transform.localScale = new Vector3 (-1, 1, 1);
 		}
 		// walking to the right
-		if (Input.GetAxis ("Horizontal") > 0.1f) {
+		if (Input.GetAxis ("Horizontal") > 0.1f)
+        {
 			transform.localScale = new Vector3 (1, 1, 1);
 		}
-		// jumping
-		if (Input.GetButtonDown ("Jump"))
-		if (isGrounded) {
-			rb2D.AddForce (Vector2.up * jumpPower);
-			isDoubleOK = true;
-		} else {
-			if (isDoubleOK) {
-				rb2D.velocity = new Vector2 (rb2D.velocity.x, 0);
-				rb2D.AddForce (Vector2.up * jumpPower);
-				isDoubleOK = false;
-			}
-		}
-		if (currHealth > maxHealth) {
+        // jumping
+        if (Input.GetButtonDown("Jump"))
+        {
+            if (isGrounded)
+            {
+                rb2D.AddForce(Vector2.up * jumpPower);
+                isDoubleOK = true;
+            }
+            else
+            {
+                if (isDoubleOK)
+                {
+                    rb2D.velocity = new Vector2(rb2D.velocity.x, 0);
+                    rb2D.AddForce(Vector2.up * jumpPower);
+                    isDoubleOK = false;
+                }
+            }
+        }
+		if (currHealth > maxHealth)
+        {
 			currHealth = maxHealth;
-		} else if (currHealth <= 0) {
+		}
+        else if (currHealth <= 0)
+        {
 			Die ();
 		}
 	}
@@ -85,10 +96,12 @@ public class Player : MonoBehaviour
 		float x = Input.GetAxis ("Horizontal"); // -1 or +1 for left and right
 		rb2D.AddForce (Vector2.right * speed * x);
 		// limiting horizontal movement
-		if (rb2D.velocity.x > maxSpeed) {
+		if (rb2D.velocity.x > maxSpeed)
+        {
 			rb2D.velocity = new Vector2 (maxSpeed, rb2D.velocity.y);
 		}
-		if (rb2D.velocity.x < -maxSpeed) {
+		if (rb2D.velocity.x < -maxSpeed)
+        {
 			rb2D.velocity = new Vector2 (-maxSpeed, rb2D.velocity.y);
 		}
 	}
