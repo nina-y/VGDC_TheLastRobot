@@ -79,7 +79,7 @@ public class Player : MonoBehaviour
 		}
 	}
 
-	// FixedUpdated called for physics and such
+	// FixedUpdated called for physics stuff
 	void FixedUpdate ()
 	{
 		// fake friction to ease velocity
@@ -94,7 +94,7 @@ public class Player : MonoBehaviour
 		}
 		// horizontal movement
 		float x = Input.GetAxis ("Horizontal"); // -1 or +1 for left and right
-		rb2D.AddForce (Vector2.right * speed * x);
+		rb2D.AddForce (Vector2.right * speed * x); // multiply 2D vector by magnitude (speed) and direction (x)
 		// limiting horizontal movement
 		if (rb2D.velocity.x > maxSpeed)
         {
