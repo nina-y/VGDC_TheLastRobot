@@ -1,25 +1,25 @@
 # GAME PITCH
 
-### NAME (WIP)
+### Name (WIP)
 * The Last Robot
 
-### GAME ENGINE
+### Game Engine
 * Unity
 
-### OTHER APPS
+### Other Applications
 * Piskel (web app we used to make sprites)
 * Paint (sprites)
 * Photoshop (sprites)
 
-### DEVELOPMENT LENGTH
+### Development Length
 * 1 Quarter (Can be extended)
   * Mid-Quarter Goals: Have a concrete story with 1 level completed
   * End-Quarter Goals: Finish the game with at least 3 levels and ensure story elements show
 
-### OBJECTIVE
+### Objective
 * Learning-oriented (level design, sprite creation, enemy AI, level navigation, story-telling through games)
 
-### SUMMARY
+### Summary
 A classmate and I in high school began working on a game to test out Unity's various features. Since we didn't get to finish, I thought that completing the game would be great to continue learning and teaching others about game development.
 
 The game is a 2D platformer that tells the story of a robot that has survived after human extinction. The world is filled with the remnants of human civilization and now only robots roam Earth. In an effort to grow stronger, each surviving robot seeks to 'eat' scrap to grow/repair themselves, some of them forming robot clans. The player plays a robot programmed by a human to destroy the remaining robots so that life can once again flourish on Earth. By eating scrap and developing its abilities, the robot will progress until no more robots exist, the point at which life will once again flourish.
