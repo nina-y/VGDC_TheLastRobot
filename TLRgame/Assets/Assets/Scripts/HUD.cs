@@ -4,18 +4,18 @@ using UnityEngine.UI;
 
 public class HUD : MonoBehaviour
 {
-	public Sprite[] heartSprites;
+	public Sprite[] healthSprites;
 	public Image healthUI;
 
 	public Player player;
 
 	void Start ()
 	{
-		player = GameObject.FindGameObjectWithTag ("Player").GetComponent<Player> ();
+		player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player> ();
 	}
 
 	void Update ()
 	{
-		healthUI.sprite = heartSprites [player.currHealth];
+		healthUI.sprite = healthSprites[player.currHealth];
 	}
 }

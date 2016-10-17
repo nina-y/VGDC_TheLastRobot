@@ -14,17 +14,17 @@ using UnityEditor;
 
 class CameraFollowerEditor : Editor // extends Editor to change GUI
 {
-	public override void OnInspectorGUI ()
+	public override void OnInspectorGUI()
 	{
-		DrawDefaultInspector ();
+		DrawDefaultInspector();
 		
 		CameraFollow cf = (CameraFollow)target;
 		// two buttons to set extremes for camera position
-		if (GUILayout.Button ("Set Min Cam Pos")) {
-			cf.SetMinCamPos ();
+		if (GUILayout.Button("Set Min Cam Pos")) {
+			cf.SetMinCamPos();
 		}
-		if (GUILayout.Button ("Set Max Cam Pos")) {
-			cf.SetMaxCamPos ();
+		if (GUILayout.Button("Set Max Cam Pos")) {
+			cf.SetMaxCamPos();
 		}
 	}
 }

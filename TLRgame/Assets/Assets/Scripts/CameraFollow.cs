@@ -19,31 +19,31 @@ public class CameraFollow : MonoBehaviour
 
 	public GameObject player;
 
-	void Start ()
+	void Start()
 	{
-		player = GameObject.FindGameObjectWithTag ("Player");
+		player = GameObject.FindGameObjectWithTag("Player");
 	}
 
-	void FixedUpdate ()
+	void FixedUpdate()
 	{
-		float posX = Mathf.SmoothDamp (transform.position.x, player.transform.position.x, ref velocity.x, smoothTimeX);
-		float posY = Mathf.SmoothDamp (transform.position.y, player.transform.position.y, ref velocity.y, smoothTimeY);
+		float posX = Mathf.SmoothDamp(transform.position.x, player.transform.position.x, ref velocity.x, smoothTimeX);
+		float posY = Mathf.SmoothDamp(transform.position.y, player.transform.position.y, ref velocity.y, smoothTimeY);
 
-		transform.position = new Vector3 (posX, posY, transform.position.z);
+		transform.position = new Vector3(posX, posY, transform.position.z);
 		// limit camera position to certain bounds
 		if (bounds) {
-			transform.position = new Vector3 (Mathf.Clamp (transform.position.x, minValue.x, maxValue.x),
-				Mathf.Clamp (transform.position.y, minValue.y, maxValue.y),
+			transform.position = new Vector3(Mathf.Clamp(transform.position.x, minValue.x, maxValue.x),
+				Mathf.Clamp(transform.position.y, minValue.y, maxValue.y),
 				transform.position.z);
 		}
 	}
 
-	public void SetMinCamPos ()
+	public void SetMinCamPos()
 	{
 		minValue = gameObject.transform.position;
 	}
 
-	public void SetMaxCamPos ()
+	public void SetMaxCamPos()
 	{
 		maxValue = gameObject.transform.position;
 	}

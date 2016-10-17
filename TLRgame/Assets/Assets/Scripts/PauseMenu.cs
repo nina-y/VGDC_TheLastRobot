@@ -7,45 +7,45 @@ public class PauseMenu : MonoBehaviour
 
 	private bool isPaused = false;
 
-	void Start ()
+	void Start()
 	{
-		PauseUI.SetActive (false);
+		PauseUI.SetActive(false);
 	}
 
-	void Update ()
+	void Update()
 	{
-		if (Input.GetButtonDown ("Pause")) {
+		if (Input.GetButtonDown("Pause")) {
 			isPaused = !isPaused;
 		}
 		if (isPaused) {
-			PauseUI.SetActive (true);
+			PauseUI.SetActive(true);
 			Time.timeScale = 0;
 		}
 		if (!isPaused) {
-			PauseUI.SetActive (false);
+			PauseUI.SetActive(false);
 			Time.timeScale = 1;
 		}
 	}
 
-	public void Resume ()
+	public void Resume()
 	{
 		isPaused = false;
 	}
 
-	public void Restart ()
+	public void Restart()
 	{
 		// Application.LoadLevel (Application.loadedLevel);
-		SceneManager.LoadScene (SceneManager.GetActiveScene().name);
+		SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 	}
 
-	public void MainMenu ()
+	public void MainMenu()
 	{
 		// Application.LoadLevel (0);
 		SceneManager.LoadScene(0);
 	}
 
-	public void Quit ()
+	public void Quit()
 	{
-		Application.Quit ();
+		Application.Quit();
 	}
 }

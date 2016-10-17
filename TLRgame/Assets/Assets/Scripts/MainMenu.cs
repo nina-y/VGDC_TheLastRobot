@@ -8,21 +8,21 @@ public class MainMenu : MonoBehaviour
 
 	void Start ()
 	{
-		MainUI.SetActive (true);
+		MainUI.SetActive(true);
 	}
 
-	public void Play ()
+	public void Play()
 	{
-		SceneManager.LoadScene (1);
+		SceneManager.LoadScene(1);
 	}
 
-	public void Options ()
+	public void Options()
 	{
 
 	}
 
-	public void Quit ()
+	public void Quit()
 	{
-		Application.Quit ();
+		Application.Quit();
 	}
 }
