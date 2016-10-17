@@ -1,4 +1,4 @@
-<img src="https://github.com/BTx123/VGDC_TheLastRobot/blob/master/logo_placeholder.jpg" width="1000" />
+<img src="https://github.com/BTx123/VGDC_TheLastRobot/blob/master/logo_placeholder.jpg" width="1000px" />
 
 ## Summary
 
