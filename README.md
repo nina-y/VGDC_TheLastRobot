@@ -1,4 +1,4 @@
-![alt text](https://github.com/BTx123/VGDC_TheLastRobot/blob/master/logo_placeholder.jpg "Logo Placeholder")
+<img src="https://github.com/BTx123/VGDC_TheLastRobot/blob/master/logo_placeholder.jpg" width="1000" />
 
 ## Summary
 
