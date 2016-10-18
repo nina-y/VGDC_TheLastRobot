@@ -1,6 +1,8 @@
 # STORY IDEAS
 
-## General story summaries with some mechanics. Story can change around implemented mechanics/level design if necessary. (1) and (2) are based around the [initial story ideas as presented in game pitch](https://github.com/BTx123/VGDC_TheLastRobot/blob/master/story/game_pitch.md#game-pitch).
+### General story summaries with some mechanics. Story can change around implemented mechanics/level design if necessary. (1) and (2) are based around the [initial story ideas as presented in game pitch](https://github.com/BTx123/VGDC_TheLastRobot/blob/master/story/game_pitch.md#game-pitch).
+
+---
 
 ### *'ROGUE ROBOTS'* Scenario – a pretty basic scenario, light on story
 * PREMISE: Group of robots rebel by rising against their creators and plan to eliminate humanity for… reasons. Player character is part of human-aligned robots who clash with the robots, but the human-aligned robots are crushed and all but player character are destroyed. Player robot reboots, being in desperate need of repair.
