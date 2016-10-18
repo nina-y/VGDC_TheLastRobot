@@ -1,6 +1,8 @@
 <img src="https://github.com/BTx123/VGDC_TheLastRobot/blob/master/logo_placeholder.jpg" width="1000px" />
 
 ## Summary
+* [Game Pitch](https://github.com/BTx123/VGDC_TheLastRobot/blob/master/story/game_pitch.md#game-pitch)
+* [Story Ideas](https://github.com/BTx123/VGDC_TheLastRobot/blob/master/story/story_ideas.md#story-ideas)
 
 
 ## TODO
