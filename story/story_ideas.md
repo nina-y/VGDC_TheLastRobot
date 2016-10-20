@@ -22,7 +22,7 @@
 
 ---
 
-~~### *'ROBOT HUNTER'* Scenario – also pretty story-light
+~~### *'ROBOT HUNTER'* Scenario – also pretty story-light~~
   * PREMISE: Again, rogue AI, but it infects any robot made past a certain generation. The last remaining robot of the generation before the infect-able generation is refitted to eliminate the robot threat.
   * LEVEL ONE: Small base of low-power rogue robots discovered, player sent to destroy them all. Player must destroy horde of more basic robots, collecting infected chips.
     * CLEAR STATE A: Destroy all robots.
@@ -35,13 +35,13 @@
   * ENDING
     1. Robots all gone except player, who is destroyed as safeguard.
     2. Robots all gone except player, who serves as template for new generation of robots.
-    3. Robots all gone except player, who is hinted at having become rogue after having to kill a ton of other robots.~~
+    3. Robots all gone except player, who is hinted at having become rogue after having to kill a ton of other robots.
 
 ---
 
-~~### *'GAME SHOW'* Scenario – story light, can have a more cheerfully sinister undertone
+~~### *'GAME SHOW'* Scenario – story light, can have a more cheerfully sinister undertone~~
 * PREMISE: Player is a robot in the game show 'Last Robot Standing' where he/she must traverse a gauntlet with various obstacles and other robots.
 * LEVELS: all have same basic plot, presented as a new gauntlet for players to traverse.
 * ENDING
   1. Player defeats the 'boss' of the game show.
-  2. Player learns that victory means he/she replaces the previous boss and acts as the final challenge for other robots who run the gauntlet.~~
+  2. Player learns that victory means he/she replaces the previous boss and acts as the final challenge for other robots who run the gauntlet.
