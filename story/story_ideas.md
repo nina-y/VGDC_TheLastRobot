@@ -17,7 +17,7 @@
 * ENDING
   1. Robot wave defeated, humans begin to turn tide on robots.
   2. Robot rebellion crushed, society restructured.
-  
+
 ---
 
 ### *'ROBOT HUNTER'* Scenario – also pretty story-light
@@ -37,7 +37,7 @@
 
 ---
 
-### *'GAME SHOW'* Scenario – story light, can have a more cheerfully sinister undertone
+~~### *'GAME SHOW'* Scenario – story light, can have a more cheerfully sinister undertone~~
 * PREMISE: Player is a robot in the game show 'Last Robot Standing' where he/she must traverse a gauntlet with various obstacles and other robots.
 * LEVELS: all have same basic plot, presented as a new gauntlet for players to traverse.
 * ENDING
