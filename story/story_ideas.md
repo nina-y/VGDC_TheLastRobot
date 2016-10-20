@@ -12,7 +12,9 @@
 * LEVEL TWO: Player robot must return to humans, but rogue robots are alerted to their presence. A squad of more powerful rogue robots are dispatched to the player's area, and the player must get past them plus any other robots in the area to an escape vehicle.
   * CLEAR STATE A: Robot reaches escape vehicle.
   * CLEAR STATE B: Eliminate all elite robots.
-* LEVEL THREE: Player robot is in process of being upgraded at base when rogue robot forces attack. Player robot must make its way through the base, fighting progressively stronger robots and collecting upgrades to fight 'boss' robot.
+* LEVEL THREE: Player robot is in process of being upgraded at human's base when rogue robot forces attack. Player robot must make its way through the base, fighting progressively stronger robots and collecting upgrades to fight 'boss' robot.
+  * CLEAR STATE A: Defreat all enemy robots
+* LEVEL FOUR: Player reaches boss area. 
   * CLEAR STATE A: Defeat boss.
 * ENDING
   1. Robot wave defeated, humans begin to turn tide on robots.
@@ -20,7 +22,7 @@
 
 ---
 
-### *'ROBOT HUNTER'* Scenario – also pretty story-light
+~~### *'ROBOT HUNTER'* Scenario – also pretty story-light~~
   * PREMISE: Again, rogue AI, but it infects any robot made past a certain generation. The last remaining robot of the generation before the infect-able generation is refitted to eliminate the robot threat.
   * LEVEL ONE: Small base of low-power rogue robots discovered, player sent to destroy them all. Player must destroy horde of more basic robots, collecting infected chips.
     * CLEAR STATE A: Destroy all robots.
